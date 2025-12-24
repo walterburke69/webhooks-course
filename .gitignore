@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# UiPath
+.local/
+.objects/
+.settings/
+.tmh/
+*.nupkg
+bin/
+obj/
+.screenshots/
+execution.log
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment
+.env
+.env.local
