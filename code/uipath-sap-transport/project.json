@@ -28,7 +28,7 @@
     "mustRestoreAllDependencies": true
   },
   "designOptions": {
-    "projectProfile": "Developement",
+    "projectProfile": "Development",
     "outputType": "Process",
     "libraryOptions": {
       "includeOriginalXaml": false,
