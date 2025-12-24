@@ -50,7 +50,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Start" sap:VirtualizedContainerService.HintSize="625,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Starting SAP Transport Import Workflow&quot;]" />
+    <ui:LogMessage DisplayName="Log Start" sap:VirtualizedContainerService.HintSize="625,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="Starting SAP Transport Import Workflow" />
     <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Get SAP System" sap:VirtualizedContainerService.HintSize="625,241" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter SAP System ID (e.g., PRD, QAS, DEV):" Title="SAP System">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[sapSystem]</OutArgument>
@@ -70,7 +70,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:LogMessage DisplayName="Log Import Start" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Connecting to SAP system and starting import...&quot;]" />
+          <ui:LogMessage DisplayName="Log Import Start" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="Connecting to SAP system and starting import..." />
           <ui:MessageBox Caption="Import Success" ChosenButton="{x:Null}" DisplayName="Show Success Message" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Transport Request &quot; + transportRequest + &quot; has been successfully imported to &quot; + sapSystem + &quot; system.&quot;]" />
         </Sequence>
       </TryCatch.Try>
@@ -92,6 +92,6 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <ui:LogMessage DisplayName="Log Completion" sap:VirtualizedContainerService.HintSize="625,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;SAP Transport Import Workflow Completed&quot;]" />
+    <ui:LogMessage DisplayName="Log Completion" sap:VirtualizedContainerService.HintSize="625,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="SAP Transport Import Workflow Completed" />
   </Sequence>
 </Activity>
